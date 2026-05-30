@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Deeptech Digest - May 30, 2026</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 780px; margin: 0 auto; padding: 2rem 1.5rem; color: #1a1a2e; line-height: 1.7; }
+    header { border-bottom: 3px solid #2E75B6; padding-bottom: 1rem; margin-bottom: 2rem; }
+    header a { color: #2E75B6; text-decoration: none; font-size: 0.9rem; }
+    h1 { color: #1E3A5F; margin: 0.5rem 0; font-size: 1.8rem; }
+    .subtitle { color: #555; font-style: italic; margin-bottom: 0; }
+    h2 { color: #2E75B6; border-bottom: 1px solid #D6E4F0; padding-bottom: 0.3rem; margin-top: 2rem; }
+    h3 { color: #1E3A5F; margin-top: 1.5rem; }
+    a { color: #2E75B6; }
+    ul { padding-left: 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    .sources { background: #f5f7fa; border-left: 3px solid #2E75B6; padding: 0.5rem 1rem; margin-top: 0.5rem; border-radius: 0 4px 4px 0; }
+    footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #eee; color: #888; font-size: 0.85rem; text-align: center; }
+    .back { display: inline-block; margin-top: 2rem; background: #1E3A5F; color: white; padding: 0.5rem 1.2rem; border-radius: 4px; text-decoration: none; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/deeptech-digest/">← All Digests</a>
+    <h1>Daily Deeptech Digest - May 30, 2026</h1>
+    <p class="subtitle">AI, Cybersecurity &amp; Deeptech News from India &amp; Southeast Asia</p>
+  </header>
+  <main><h1>Daily Deeptech Digest</h1>
+<h2>Coverage Date: May 29, 2026 | Published: May 30, 2026</h2>
+<p><em>AI, Cybersecurity &amp; Deeptech Intelligence from India &amp; Southeast Asia</em></p>
+<hr />
+<h2>🤖 Cybersecurity: AI Used in Live Attack for First Time in Asia</h2>
+<h3>Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit</h3>
+<p>In a landmark moment for cyber threat intelligence, researchers at Sysdig documented the first observed instance of a threat actor deploying a large language model (LLM) agent to autonomously carry out post-exploitation activity. After gaining initial access via CVE-2026-39987 — a critical remote code execution vulnerability in the Marimo Python notebook framework — the attacker handed off control to an AI agent, which conducted lateral movement across four pivot points, extracted two cloud credentials, retrieved an SSH private key from AWS Secrets Manager, and exfiltrated an internal PostgreSQL database — all in under two minutes. Commands were composed in real time, adapting dynamically to each step's output. Cloudflare Workers were used as a per-request egress pool across 11 distinct IPs in 22 seconds to evade per-source-IP detection. <em>(Published: 2026-05-29)</em></p>
+<ul>
+<li><a href="https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html">The Hacker News – Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987</a></li>
+<li><a href="https://webflow.sysdig.com/blog/ai-agent-at-the-wheel-how-an-attacker-used-llms-to-move-from-a-cve-to-an-internal-database-in-4-pivots">Sysdig – AI Agent at the Wheel: Full Technical Breakdown</a></li>
+<li><a href="https://gbhackers.com/hackers-pivot-from-marimo-rce/">GBHackers – Hackers Pivot from marimo RCE to Internal Database Using LLM Agent</a></li>
+</ul>
+<hr />
+<h2>🕵️ Cybersecurity: China-Linked Espionage Campaign Hits Asian Governments</h2>
+<h3>China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists</h3>
+<p>Trend Micro has disclosed a new China-aligned espionage campaign tracked as SHADOW-EARTH-053, targeting government and defense sectors across South Asia, Southeast Asia, and a NATO member (Poland). Victims span Pakistan, Thailand, Malaysia, India, Myanmar, Sri Lanka, and Taiwan. The group exploits N-day vulnerabilities in Microsoft Exchange and IIS servers (including the ProxyLogon chain), deploys Godzilla web shells for persistence, and stages ShadowPad implants via DLL sideloading. Separately, two phishing threat clusters — GLITTER CARP and SEQUIN CARP — were found targeting journalists and civil society groups across the region. Trend Micro advises organizations to urgently patch Exchange and IIS systems. <em>(Published: 2026-05)</em></p>
+<ul>
+<li><a href="https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html">The Hacker News – China-Linked Hackers Target Asian Governments, NATO State</a></li>
+<li><a href="https://thediplomat.com/2026/05/1-campaign-2-targets-chinas-cyber-operations-hit-asian-governments-and-dissidents-abroad/">The Diplomat – 1 Campaign, 2 Targets: China's Cyber Operations Hit Asian Governments</a></li>
+<li><a href="https://www.securityweek.com/china-linked-hackers-hit-asian-militaries-in-patient-espionage-operation/">SecurityWeek – China-Linked Hackers Hit Asian Militaries in Patient Espionage Operation</a></li>
+</ul>
+<hr />
+<h2>🎣 Cybersecurity: Silver Fox Targets India with Tax Phishing Malware</h2>
+<h3>Silver Fox Deploys ABCDoor Malware via Income Tax Phishing Targeting Indian Organizations</h3>
+<p>The China-linked Silver Fox APT group launched a sophisticated tax-themed phishing campaign against Indian organizations, impersonating the Income Tax Department of India to distribute a newly identified Python-based backdoor called ABCDoor, alongside the well-known ValleyRAT malware. Researchers at Kaspersky observed over 1,600 malicious messages targeting sectors including industrial, consulting, retail, and transportation. The campaign used a modified Rust-based loader and also ran parallel campaigns against Russian entities using nearly identical attack infrastructure. India's critical infrastructure sectors have been flagged as particularly at risk. <em>(Published: 2026-05)</em></p>
+<ul>
+<li><a href="https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html">The Hacker News – Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India</a></li>
+<li><a href="https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia">Dark Reading – Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia</a></li>
+<li><a href="https://cybersecuritynews.com/silver-fox-hackers-attacking-indian-entities/">Cybersecurity News – Silver Fox Hackers Attacking Indian Entities with Income Tax Phishing Lures</a></li>
+</ul>
+<hr />
+<h2>🌐 Cybersecurity: Critical cPanel Vulnerability Exploited Against SE Asia Governments</h2>
+<h3>CVE-2026-41940: cPanel Auth Bypass Weaponized Against Government &amp; MSP Networks in Southeast Asia</h3>
+<p>A critical authentication bypass vulnerability in cPanel and WHM (CVE-2026-41940) was weaponized against government and military entities in Southeast Asia, as well as managed service providers (MSPs) and hosting providers in the Philippines, Laos, and beyond. The CRLF injection flaw allowed attackers to gain root-level access without a password, 2FA, or audit trail. At peak, over 44,000 compromised IPs were actively scanning exposed servers. CISA added the vulnerability to its Known Exploited Vulnerabilities catalog, and multiple threat actors — including Mirai botnet operators and ransomware groups — exploited the flaw within 24 hours of public disclosure. <em>(Published: 2026-05-04)</em></p>
+<ul>
+<li><a href="https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html">The Hacker News – Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks</a></li>
+<li><a href="https://www.helpnetsecurity.com/2026/05/04/multiple-threat-actors-actively-exploit-cpanel-vulnerability-cve-2026-41940/">Help Net Security – Multiple Threat Actors Actively Exploit cPanel Vulnerability (CVE-2026-41940)</a></li>
+<li><a href="https://www.cybersecuritydive.com/news/critical-vulnerability-cpanel-widespread-exploitation/819208/">Cybersecurity Dive – Critical Vulnerability in cPanel Leads to Widespread Exploitation</a></li>
+</ul>
+<hr />
+<h2>🇮🇳 India AI &amp; Policy: Sovereign AI Partnerships Signal New Era</h2>
+<h3>India Inks Landmark Sovereign AI Deals with OpenAI, Tata, Anthropic, and Infosys</h3>
+<p>Following the India AI Impact Summit 2026, a series of landmark agreements were announced that position India as a sovereign AI infrastructure player. OpenAI and Tata Group signed a partnership to develop AI-ready data center capacity beginning with 100 megawatts of capacity — with OpenAI becoming the first customer of TCS's HyperVault data center business — and Tata Group plans to deploy ChatGPT Enterprise across its workforce. In parallel, Infosys announced a collaboration with Anthropic to embed Claude AI models across telecommunications, financial services, and manufacturing via its Topaz AI platform. India has also joined the US-led Pax Silica coalition and onboarded 38,000+ high-end GPUs at ₹65/hour for domestic AI compute. <em>(Published: 2026-05)</em></p>
+<ul>
+<li><a href="https://www.eetimes.com/ai-impact-summit-from-minerals-to-models-india-stakes-its-ai-claim/">EE Times – India Stakes Its AI Claim at AI Impact Summit 2026</a></li>
+<li><a href="https://openai.com/index/openai-for-india/">OpenAI – Introducing OpenAI for India</a></li>
+<li><a href="https://www.business-standard.com/industry/news/openai-anthropic-ai-services-impact-tcs-infosys-india-126050600723_1.html">Business Standard – OpenAI, Anthropic Move into Services: Impact on Indian IT</a></li>
+</ul>
+<hr />
+<h2>💰 Deep Tech Investment: India's $931M DeepTech Surge</h2>
+<h3>India's DeepTech Funding Hits $931M, Second Only to Global Generative AI Boom</h3>
+<p>India's deep tech ecosystem has recorded a $931 million funding surge, signaling a fundamental shift toward science- and engineering-driven innovation. The country is now home to over 4,200 deep tech startups with 550+ new companies added in the past year. India has emerged as the world's second-largest Generative AI startup ecosystem with 890 GenAI startups. Karnataka-based deep tech startups have surpassed a $300 billion combined valuation. Deep tech accounted for approximately $2.3 billion of India's startup funding in 2025, growing 37% year-on-year. AI-powered cybersecurity startup Deep Algorithm separately raised ₹16 crore in a pre-Series A round led by Unicorn India Ventures. <em>(Published: 2026-05-26)</em></p>
+<ul>
+<li><a href="https://news.fundsforngos.org/2026/05/26/indias-931m-deeptech-funding-surge-signals-a-shift-toward-core-innovation-economy/">Funds for NGOs – India's $931M DeepTech Funding Surge</a></li>
+<li><a href="https://www.business-standard.com/amp/technology/tech-news/deep-tech-boom-has-taken-k-taka-startups-past-300-bn-mark-priyank-kharge-126052001470_1.html">Business Standard – Deep-tech Boom Takes Karnataka Startups Past $300bn Mark</a></li>
+<li><a href="https://indianstartupnews.com/news/ai-cybersecurity-startup-deep-algorithm-raises-rs-16-crore-funding-from-unicorn-india-ventures-11757268">Indian Startup News – AI Cybersecurity Startup Deep Algorithm Raises ₹16 Crore</a></li>
+</ul>
+<hr />
+<h2>🌏 Southeast Asia: AI and Digital Initiatives Accelerating</h2>
+<h3>Google Expands Gemini and Agricultural AI Across Southeast Asia</h3>
+<p>Google is deepening its AI footprint across Southeast Asia, with Gemini Academy having trained more than 290,000 teachers across Indonesia, Malaysia, Thailand, Vietnam, and the Philippines. Agricultural APIs are being expanded to Malaysia, Vietnam, and Indonesia to provide real-time insights supporting sustainable farming. Southeast Asia's AI startup landscape is gaining momentum with companies like Singapore's Menlo Research (open-source AI/robotics), Indonesia's Peris.ai (hyperautomated cybersecurity), and Meeting.ai (AI meeting automation). Vietnam's tech ecosystem now counts 5,500+ startups, six unicorns, and $3.2 billion in cumulative funding. <em>(Published: 2026-05)</em></p>
+<ul>
+<li><a href="https://blog.google/company-news/inside-google/around-the-globe/google-asia/turning-ai-momentum-in-southeast-asia-into-tremendous-economic-growth/">Google Blog – Turning AI Momentum in Southeast Asia into Economic Growth</a></li>
+<li><a href="https://fintechnews.sg/119796/ai/26-entrepreneurs-and-founders-redefining-southeast-aseas-ai-landscape/">Fintech Singapore – 26 Entrepreneurs Redefining Southeast Asia's AI Landscape</a></li>
+</ul>
+<hr />
+<h2>🔑 Key Takeaways</h2>
+<ol>
+<li>
+<p><strong>AI weaponized in live cyberattacks</strong>: The Marimo CVE incident marks the first confirmed use of an autonomous LLM agent for real-time post-exploitation — a watershed moment that will reshape threat detection strategies across the region.</p>
+</li>
+<li>
+<p><strong>China remains Asia's dominant cyber threat</strong>: Multiple concurrent campaigns (SHADOW-EARTH-053, Silver Fox, GLITTER CARP/SEQUIN CARP) show a coordinated multi-vector posture targeting South and Southeast Asian governments, journalists, and critical infrastructure.</p>
+</li>
+<li>
+<p><strong>India emerges as a sovereign AI power</strong>: The OpenAI-Tata and Infosys-Anthropic deals, combined with $931M in deep tech funding and domestic GPU infrastructure, signal India's transition from a technology consumer to a key AI infrastructure player.</p>
+</li>
+<li>
+<p><strong>Southeast Asia accelerates AI adoption</strong>: With Google, governments, and local startups all moving aggressively on AI for agriculture, education, and enterprise automation, the region is building real AI application depth — not just hype.</p>
+</li>
+<li>
+<p><strong>Patch urgently</strong>: CVE-2026-41940 (cPanel) remains a critical threat vector for government and MSP networks across Southeast Asia — check your infrastructure now.</p>
+</li>
+</ol>
+<hr />
+<p><em>ThinKuvate · Deeptech Daily Digest · Automated run: 2026-05-30 04:43 UTC</em></p></main>
+  <a href="/deeptech-digest/" class="back">← Back to all digests</a>
+  <footer>ThinKuvate · Deeptech Daily Digest · <a href="https://riteshtoshniwal.github.io/deeptech-digest/">riteshtoshniwal.github.io/deeptech-digest</a></footer>
+</body>
+</html>
